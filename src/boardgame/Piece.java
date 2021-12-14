@@ -8,7 +8,6 @@ public class Piece {
 	
 	
 	public Piece(Board board) {
-		position = null;
 		this.board = board;
 	}
 
