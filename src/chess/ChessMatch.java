@@ -23,7 +23,7 @@ public class ChessMatch {
 	private ChessPiece enPassantVulnerable;
 	private ChessPiece  promoted;
 	
-	
+
 	private List<Piece> piecesOnTheBoard = new ArrayList<>();
 	private List<Piece> capturedPieces = new ArrayList<>();
 	

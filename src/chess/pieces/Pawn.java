@@ -1,5 +1,6 @@
 package chess.pieces;
 
+
 import boardgame.Board;
 import boardgame.Position;
 import chess.ChessMatch;
@@ -91,8 +92,10 @@ public class Pawn extends ChessPiece {
 		return mat;
 	}
 	@Override
-	public String toString(){
-		return "P";
+	public String toString() {
+	
+		return"P";
+		
 	}
 	
 

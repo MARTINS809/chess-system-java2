@@ -1,5 +1,6 @@
 package chess.pieces;
 
+
 import boardgame.Board;
 import boardgame.Position;
 import chess.ChessPiece;
@@ -13,7 +14,9 @@ public class Rook extends ChessPiece{
 
 	@Override
 	public String toString() {
+		
 		return"R";
+	
 	}
 	@Override
 	public boolean[][] possibleMoves() {
